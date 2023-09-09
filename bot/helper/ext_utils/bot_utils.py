@@ -175,17 +175,17 @@ def get_rclone_version():
 
 
 class EngineStatus:
-    STATUS_ARIA = f"Aria2 v{aria2.client.get_version()['version']}"
-    STATUS_GD = f"Google-API v{get_distribution('google-api-python-client').version}"
-    STATUS_MEGA = f"MegaSDK v{MegaApi('test').getVersion()}"
-    STATUS_QB = f"qBit {get_client().app.version}"
-    STATUS_TG = f"Pyrogram v{get_distribution('pyrogram').version}"
-    STATUS_YT = f"yt-dlp v{get_distribution('yt-dlp').version}"
+    STATUS_ARIA = "Aria2 "
+    STATUS_GD = "Google-API "
+    STATUS_MEGA = "MegaSDK "
+    STATUS_QB = "qBit "
+    STATUS_TG = "Pyrofork"
+    STATUS_YT = "yt-dlp"
     STATUS_EXT = "pExtract v2"
-    STATUS_SPLIT_MERGE = f"ffmpeg v{get_ffmpeg_version()}"
-    STATUS_ZIP = f"p7zip v{get_p7zip_version()}"
+    STATUS_SPLIT_MERGE = "ffmpeg"
+    STATUS_ZIP = "p7zip "
     STATUS_QUEUE = "Sleep v0"
-    STATUS_RCLONE = f"RClone {get_rclone_version()}"
+    STATUS_RCLONE = "RClone"
 
 
 def get_readable_message():
